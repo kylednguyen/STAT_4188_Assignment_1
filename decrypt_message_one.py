@@ -34,10 +34,24 @@ cipher = {
     '.': '%' 
 }
 
+decipher_dict = {v: k for k, v in cipher.items()}
+
+
 encrypted_file = open("encrypted_message_one.txt", 'r')
+
 
 encrypted_message = encrypted_file.readline()
 
+
 encrypted_file.close()
 
-# Write code below
+
+decipher = ""
+for char in encrypted_message:
+   if char in decipher_dict:
+       decipher += decipher_dict[char]
+   else:
+       decipher += char
+print(decipher)
+
+
