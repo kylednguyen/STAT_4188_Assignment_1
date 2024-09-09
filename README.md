@@ -4,3 +4,4 @@
 - Minors: Mathematics and Statistics
 - Fun Fact: I broke my arm twice when I was a kid.
 - Previous Experience: Just basic R and python maniplulation with NFL statistics.
+# STAT_4188_Assignment_1
